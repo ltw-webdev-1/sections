@@ -1,0 +1,49 @@
+repo: "sections"
+canvasCourse: "467502"
+canvasAssignment: "4177761"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "section"
+      - "section div"
+      - "section img"
+      - "section h2"
+      - "section p"
+      - ".btn"
+      - ".btn-ghost"
+    search:
+      - "Lato"
+      - "Great Pyramid of Giza"
+      - "Cheops"
+      - "Visit Khufu"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['body', 'margin', '0']
+      - ['img', 'display', 'block']
+      - ['img', 'width', '100%']
+      - ['.btn']
+      - ['.btn-ghost']
+      - ['.btn-ghost:hover']
+    search:
+      - "Lato"
+      - "inline-block"
+      - "width"
+      - "max-width"
+      - "vertical-align: middle"
+      - "text-align: center"
+      - "text-align: left"
+
+screenshots:
+  - path: "index.html"
+    sizes: [320, 400, 650, 980, 1400]
