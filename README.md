@@ -1,11 +1,12 @@
-# Sections
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: 'Make a responsive website section with an image, blurb and a button.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file, images'
 ---
 
-**Make a responsive website section with an image, blurb and a button.**
+# Sections
+
+## Overview
 
 - *Fork this repository.*
 - Write the HTML & CSS necessary to match the screenshots.
@@ -19,6 +20,10 @@
 
 - *Typefaces:* `Lato`
 - *Maximum width on section inner boxes:* `25em`
+- *Colours:* `#666`, `#333`, `#f2f2f2`
+- *Paddings:* `1em`, `2em`, `0.4em 0.75em 0.5em`
+- *Margins:* `1.5rem`
+- *Line-height:* `1.5`
 
 ---
 
@@ -35,7 +40,6 @@ Visually match the images in the “screenshots” folder and create the interac
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
 
----
 ---
 
 ## Optional challenges
