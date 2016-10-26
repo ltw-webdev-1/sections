@@ -49,7 +49,7 @@ css:
       - 'text-align: left'
       - '#666'
       - '#333'
-      - '#f2f2f2'
+      - '#eee9de'
     search_not:
       - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
 
