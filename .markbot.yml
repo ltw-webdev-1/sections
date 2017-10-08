@@ -1,21 +1,22 @@
 repo: 'sections'
 canvasCourse: 'web-dev-1'
 
-naming: true
-restrictFileTypes: true
-liveWebsite: true
-
-git:
-  numCommits: 2
-  allCommitted: true
-  allSynced: true
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - google-fonts
+  - css
+  - box-sizing
+  - body-margin-0
+  - img-block-100
+  - screenshots-all
 
 html:
   - path: 'index.html'
-    valid: true
-    bestPractices: true
+    outline: false
     has:
-      - ['link[href*="fonts.googleapis.com/css?family=Lato:400,700"]', 'The Google Font `Lato` with the `400` & `700` weights is missing']
+      - ['link[href*="Lato"]', 'The Google Font, `Lato` (regular & bold), is missing']
       - 'section'
       - 'section div'
       - 'section img'
@@ -30,14 +31,7 @@ html:
 
 css:
   - path: 'css/main.css'
-    valid: true
-    bestPractices: true
     has:
-      - ['html', 'box-sizing', 'border-box']
-      - ['*', 'box-sizing', 'inherit']
-      - ['body', 'margin', '0']
-      - ['img', 'display', 'block']
-      - ['img', 'width', '100%']
       - ['.btn']
     search:
       - 'Lato'
@@ -50,9 +44,3 @@ css:
       - '#666'
       - '#333'
       - '#eee9de'
-    search_not:
-      - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
-
-screenshots:
-  - path: 'index.html'
-    sizes: [320, 400, 608, 960, 1440]
