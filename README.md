@@ -18,7 +18,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 
 ## Details
 
-- *Typefaces:* `Lato`
+- *Typefaces:* `Lato` (regular, bold)
 - *Maximum width on section inner boxes:* `25em`
 - *Colours:* `#666`, `#333`, `#eee9de`
 - *Paddings:* `1em`, `2em`, `.4em .75em .5em`
